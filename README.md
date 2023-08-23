@@ -8,6 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Instructions
+### Ensure 3rd party cookies are blocked!
+This sample will only fail when cookies are blocked.
+
 ### Ensure you have a Azure AD app registration
 1. Ensure the app registration has correct redirect uri's and permissions for Microsoft Graph, Yammer and SharePoint.
 1. Replace URLs for services and or scopes in `environment.ts` and `app.module.ts` (check the REPLACE_ME entries)
